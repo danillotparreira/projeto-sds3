@@ -9,14 +9,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import br.com.danillotparreira.dsvendas.dto.SellerDTO;
-import br.com.danillotparreira.dsvendas.service.SellerServices;
+import br.com.danillotparreira.dsvendas.service.SellerService;
 
 @RestController
 @RequestMapping("/sellers")
 public class SellerController {
 
 	@Autowired
-	private SellerServices service;
+	private SellerService service;
 	
 	@GetMapping
 	public ResponseEntity<List<SellerDTO>> findAll(){

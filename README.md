@@ -7,7 +7,10 @@ Projeto feito com as seguintes ferramentas:
  - Postgres
  - SpringBoot
  - SpringBoot Security
+ - CDI
+ - REST
  
 ## FRONTEND
  - ReactJS
  - Bootstrap
+ - Charts.js
